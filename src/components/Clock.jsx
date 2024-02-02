@@ -56,7 +56,7 @@ function Clock(props){
     return(
         <div className="main__clock" draggable={true}>
                 <div className="main__clock__next">
-                    Next Alarm in: <span>{timeLeft}</span> 
+                    Next Alarm in: <span>{timeLeft ? timeLeft : "never"}</span> 
                 </div>
                 <div className="main__clock__time">
                     <h3>PARIS</h3>

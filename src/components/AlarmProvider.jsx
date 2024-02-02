@@ -25,8 +25,6 @@ export const AlarmProvider = ({children})=>{
 }
 
 
-
-
 export const useAlarmContext = ()=>{
     return useContext(AlarmContext)
 }
